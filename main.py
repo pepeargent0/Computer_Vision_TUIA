@@ -8,7 +8,7 @@ EXPECTED_SIZE = (640, 640)
 model = YOLO('yolov8s.pt')
 
 # Cargar una imagen
-img_path = '1.jpeg'  # Cambia esto a la ruta de tu imagen
+img_path = 'datasets/cartas/images/train/1.jpeg'  # Cambia esto a la ruta de tu imagen
 img = Image.open(img_path)
 
 # Verificar el tamaño de la imagen y redimensionar si es necesario
